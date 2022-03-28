@@ -1,0 +1,72 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+ <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css" />
+    <link rel="stylesheet" href="index.css" />
+   
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Document</title>
+</head>
+
+<body>
+    <div class="header">
+        <h1>NEWs</h1>
+        <p>Get the latest news from and <b>Politics, Entertainment, Sports</b> other feature stories.</p>
+    </div>
+    <div class="navbar">
+        <a href="#" class="active">Home</a>
+    </div>
+    <div class="row">
+        <div class="col-md">
+            <div class="example" style="margin:auto;max-width:300px"> 
+                <input type="text" id="searchInput" placeholder="Search.." name="search">
+                <button  id="btn" onclick="search()" ><i class="fa fa-search"></i></button>
+                
+            </div>
+        </div>
+        <div class="col-md">
+            <form class="form" style="margin:auto;max-width:300px">
+                <select name="List" id="list">
+                  <option value=" ">Followed Topics</option>
+                </select>
+            </form>
+        </div>
+        <div class="col-md">
+            <form class="form" style="margin:auto;max-width:300px">
+                <button type="button" id="follow">Follow</button>
+                <button type="button" id="unfollow">Unfollow</button>
+            </form>
+        </div>
+    </div>
+    <div>
+        <center>
+            <h3>Result
+                <h3></h3>
+        </center>
+    </div>
+    <div style="overflow-x:auto;">
+
+        <table id="table1"></table>
+        <table id="table2"></table>
+        <table id="table3"></table>
+
+
+        <!-- <div class="main">
+      <h2>TITLE HEADING</h2>
+      <h5>Title description, Dec 7, 2017</h5>
+      <div class="fakeimg" style="height:200px;">Image</div>
+      <br>
+      <h2>TITLE HEADING</h2>
+      <h5>Title description, Sep 2, 2017</h5>
+      <div class="fakeimg" style="height:200px;">Image</div>
+    </div> -->
+    </div>
+
+
+    <script type="text/javascript" src="index.js"></script> 
+    <script type="text/javascript" src="search.js"></script> 
+</body>
+
+</html>
